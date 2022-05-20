@@ -26,6 +26,7 @@ import { DialogdeleteComponent } from './common/delete/dialogdelete.component';
 import { DialogproductoComponent } from './producto/dialog/dialogproducto.component';
 import { LoginComponent } from './login/login.component';
 import { JwtInterceptor } from './security/jwt.interceptor';
+import { VentaComponent } from './venta/venta.component';
 
 
 
@@ -39,7 +40,8 @@ import { JwtInterceptor } from './security/jwt.interceptor';
     DialogclienteComponent,
     DialogdeleteComponent,
     DialogproductoComponent,
-    LoginComponent
+    LoginComponent,
+    VentaComponent
     
     
   ],
